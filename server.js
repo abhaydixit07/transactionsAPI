@@ -63,6 +63,10 @@ const authenticateJWT = (req, res, next) => {
     });
   };
 
+app.get('/', (req, res)=>{
+  res.send("Welcome to transactionsAPI")
+})
+
 // Authentication Endpoint
 app.post('/login', async (req, res) => {
   try {
