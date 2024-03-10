@@ -1,4 +1,5 @@
 # transactionsAPI
+### [API documentation](https://documenter.getpostman.com/view/30145336/2sA2xh3DRb)
 
 transactionsAPI is a secure and user-friendly RESTful API designed for managing financial transactions. Built on Node.js and PostgreSQL, it offers essential features such as user authentication, transaction recording (income and expenses), retrieval of transaction lists, and summary details. transactionsAPI ensures data security through JWT-based authentication and provides a straightforward interface for users to monitor and control their financial activities.
 
