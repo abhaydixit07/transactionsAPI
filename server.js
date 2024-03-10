@@ -64,7 +64,7 @@ const authenticateJWT = (req, res, next) => {
   };
 
 app.get('/', (req, res)=>{
-  res.send("Welcome to transactionsAPI")
+  res.redirect('https://documenter.getpostman.com/view/30145336/2sA2xh3DRb')
 })
 
 // Authentication Endpoint
