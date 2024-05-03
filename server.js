@@ -67,6 +67,10 @@ app.get('/', (req, res)=>{
   res.redirect('https://documenter.getpostman.com/view/30145336/2sA2xh3DRb')
 })
 
+app.get('/try', (req, res) => {
+    res.send('Hello, World!');
+});
+
 // Authentication Endpoint
 app.post('/login', async (req, res) => {
   try {
